@@ -1,0 +1,32 @@
+{
+  "name": "simple-react-giphy",
+  "version": "1.0.0",
+  "description": "Simple React Giphy component.",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EliecerC/simple-react-giphy"
+  },
+  "author": "Eliecer Chicott <eachicott@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "babel src -d dist",
+    "prepublish": "yarn build",
+    "publish": "yarn publish"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4"
+  },
+  "peerDependencies": {
+    "react": "^16.8.3"
+  },
+  "keywords": [
+    "react",
+    "giphy",
+    "simple-react-giphy"
+  ]
+}
